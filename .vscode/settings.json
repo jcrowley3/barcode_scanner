@@ -1,0 +1,59 @@
+{
+    "editor.insertSpaces": true,
+    "editor.wordWrap": "on",
+
+    // "python.testing.unittestEnabled": false,
+    // "python.testing.pytestEnabled": false,
+    "workbench.editor.wrapTabs": true,
+    "editor.codeActionsOnSave": {},
+    "files.trimTrailingWhitespace": true,
+    // "pythonTestExplorer.testFramework": "pytest",
+    "editor.detectIndentation": true,
+    "editor.stickyTabStops": true,
+    "editor.minimap.renderCharacters": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderLineHighlight": "all",
+    "editor.experimentalWhitespaceRendering": "svg",
+    "editor.guides.indentation": true,
+    "code-eol.highlightExtraWhitespace": false,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.formatting.provider": "none",
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    // "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.trimAutoWhitespace": false,
+
+
+
+    // have pylint ignore import errors
+    // "python.linting.pylintEnabled": true,
+    // "python.linting.pylintPath": "pylint",
+    // "python.linting.pylintArgs": [
+    //     // "--disable=F0401",
+    //     "--errors-only",
+    //     "--init-hook",
+    //     "import sys; sys.path.insert(0, './src')"
+    // ],
+//     "python.terminal.activateEnvironment": false,
+    "python.analysis.extraPaths": [
+        "./src",
+        "./tests",
+    ],
+    // "python.autoComplete.extraPaths": [
+    //     "./src",
+    //     "./tests",
+    // ],
+//     // "python.testing.pytestArgs": [
+//     //     "Tests"
+//     // ],
+
+//     // have python use the virtualenv
+//     //"python.pythonPath": "~/${workspaceFolder}/venv/bin/python",
+//     //"python.venvPath": "~/${workspaceFolder}/venv",
+}
