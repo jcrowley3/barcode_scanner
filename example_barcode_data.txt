@@ -1,0 +1,20 @@
+                                                       # real barcode data will not include comments
+@                                                      # compliance inidcator
+                                                      # Record Separator character
+ANSI 636000100002DL00410278ZV03190008DLDAQT64235789    # ANSI code
+DAALASTNAME, FIRSTNAME                                 # name
+DAG                                                    # adress (not used)
+DAL1234 HOME ADDRESS WAY                               # address
+DAIMETROPOLIS                                          # city
+DAJNY                                                  # State (jurisdiction code)
+DAK12345                                               # postal code
+DARC                                                   # liscense class
+DASD                                                   # Restrictions
+DAT                                                    #
+DAU604                                                 # height in feet, inches
+DAW224                                                 # weight in pounds
+DBA20520724                                            # Experation Date y/m/d
+DBB19010102                                            # Date of Birth y/m/d
+DBC1                                                   # physical description, 1=male 2=female
+DBD19520314                                            # First Liscensed date y/m/d
+ZOZOAFIRST LICENSED 03-14-1952
