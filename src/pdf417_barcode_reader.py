@@ -32,17 +32,16 @@ def encode_barcode(input_file, output_image):
     print(f"Modified barcode saved as {output_image}")
 
 
-# Paths
-image_path = 'file_path.png'  # Update this to the path of your image file
-output_text_file = 'barcode_data.txt'
-output_image_file = 'modified_barcode.png'
-
 # User choice
 choice = input("Enter 'd' to decode or 'e' to encode: ").strip().lower()
 
 if choice == 'd':
+    image_path = input("Enter the path to the image file: ").strip()  # Prompt user for the image path
+    output_text_file = 'barcode_data.txt'
     decode_barcode(image_path, output_text_file)
 elif choice == 'e':
-    encode_barcode(output_text_file, output_image_file)
+    input_file = input("Enter the path to the text file with data to encode: ").strip()  # Prompt user for the text file path
+    output_image_file = 'modified_barcode.png'
+    encode_barcode(input_file, output_image_file)
 else:
     print("Invalid choice. Please enter 'd' to decode or 'e' to encode.")
